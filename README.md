@@ -18,7 +18,7 @@ The features for the model are,
   + ask_amt
 ### Variables removed because they are neither targets or features
 EIN and Name were removed from the data set because they were neither targets or features.
-### Compiling, Training, and Evaluating the Model
+### Compiling, training, and evaluating the model
 TensorFlow was used to define the model, then it was compiled so it could be trained, the model was then trained using 100 epochs, with one of the attempts to optimize the model using 250 epochs.
 ## Neurons, layers, and activation functions selected for model and why?
 For the original model in the AlphabetSoupCharity file two hidden layers were used, the first hidden layer had 27 neurons and the second one 25. I used these numbers because there was a relatively high number of features in the model. The activation functions used were, sigmoid for the base layer because the dataset has a binary classification, and relu for the hidden layers because the data was both positive and nonlinear.
