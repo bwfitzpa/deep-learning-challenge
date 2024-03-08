@@ -17,7 +17,7 @@ The features for the model are,
   + income_amt
   + ask_amt
 ### Variables removed because they are neither targets or features
-EIN and Name were removed from the data set because they were neither targets or features.
+EIN and NAME were removed from the data set because they were neither targets or features.
 ### Compiling, training, and evaluating the model
 TensorFlow was used to define the model, then it was compiled so it could be trained, the model was then trained using 100 epochs, with one of the attempts to optimize the model using 250 epochs.
 ## Neurons, layers, and activation functions selected for model and why?
