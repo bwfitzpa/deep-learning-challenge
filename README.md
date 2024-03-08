@@ -8,8 +8,8 @@ The purpose of this anaylysis was to create a model that would be able to predic
 The target variable is whether or not a project is successful, coded as 0 and 1
 ### Model features
 The features for the model are,
-  *application type
-  *affiliation, classification, use_case, organization, status, income_amt, and ask_amt
+  + application type
+  + affiliation, classification, use_case, organization, status, income_amt, and ask_amt
 ### Variables removed because they are neither targets or features
 EIN and Name were removed from the data set because they were neither targets or features
 ### Compiling, Training, and Evaluating the Model
